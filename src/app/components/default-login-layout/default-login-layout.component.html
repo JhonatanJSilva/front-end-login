@@ -4,8 +4,8 @@
         <h2>{{ title }}</h2>
         <ng-content></ng-content>
         <div class="btn-wrapper">
-            <button 
-                class="btn-primary" 
+            <button
+                class="btn-primary"
                 (click)="submit()"
                 [disabled]="disablePrimaryBtn"
             >
@@ -15,7 +15,7 @@
                 <div></div>
                 <span>or</span>
                 <div></div>
-            </div>   
+            </div>
             <button class="btn-secundary"(click)="navigate()">{{ secundaryBtnText }}</button>
         </div>
     </section>
